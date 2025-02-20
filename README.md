@@ -48,10 +48,10 @@ pip install numpy pandas matplotlib opencv-python tensorflow scikit-learn PyPDF2
 
 ## Usage
 
-### 1. Emotion Analysis in Trailers
+### 1. Visual Analysis
 
 ```bash
-python analysis/trailer_emotion_analysis.py
+python notebooks/Data Visualiser/data_visual_analysis.py
 ```
 
 Generates a pie chart of emotions categorized by gender.
@@ -59,7 +59,7 @@ Generates a pie chart of emotions categorized by gender.
 ### 2. Gender Classification in Movie Posters
 
 ```bash
-python analysis/poster_gender_classification.py
+python notebooks/Data Visualiser/identifier.py
 ```
 
 Trains a CNN model and evaluates gender representation in movie posters.
