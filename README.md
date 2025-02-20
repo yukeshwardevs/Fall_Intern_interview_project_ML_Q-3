@@ -1,4 +1,98 @@
-# Fall_Intern_interview_project
+# Bollywood Movie Analysis
+
+## Overview
+
+This project analyzes Bollywood movie trailers, posters, and scripts to study gender representation using machine learning and computer vision techniques. The analysis includes:
+
+- Emotion distribution in trailers
+- Gender representation in movie posters
+- Gender-based dialogue analysis in movie scripts
+
+## Features
+
+- **Emotion Analysis in Trailers:** Extracts frames from trailers, classifies emotions, and visualizes gender-specific emotional distribution.
+- **Gender Classification in Movie Posters:** Uses a CNN model to classify male and female appearances in posters.
+- **Dialogue Analysis in Scripts:** Extracts and swaps gender pronouns to analyze character dialogue distribution.
+
+## Dataset
+
+- **Trailer Data:** CSV file containing frame-wise gender and emotion annotations.
+- **Movie Posters:** A dataset of Bollywood movie posters labeled with gender.
+- **Scripts:** PDF movie scripts used for dialogue analysis.
+
+## Project Structure
+
+```
+├── notebooks
+│   ├── Data Visualiser
+│   │   ├── data\_visual\_analysis.py
+│   │   ├── identifier.py
+│   ├── Image Gender Biaser
+│   │   ├── biaser.py
+│   │   ├── identifier.py
+│   ├── solution_for_future_movies.py 
+│   ├── wikipedia_analysis.ipynb 
+├── README.md
+
+```
+
+on
+
+### Prerequisites
+
+Ensure you have Python 3.x installed along with the following dependencies:
+
+```bash
+pip install numpy pandas matplotlib opencv-python tensorflow scikit-learn PyPDF2 beautifulsoup4
+```
+
+## Usage
+
+### 1. Emotion Analysis in Trailers
+
+```bash
+python analysis/trailer_emotion_analysis.py
+```
+
+Generates a pie chart of emotions categorized by gender.
+
+### 2. Gender Classification in Movie Posters
+
+```bash
+python analysis/poster_gender_classification.py
+```
+
+Trains a CNN model and evaluates gender representation in movie posters.
+
+### 3. Dialogue Analysis in Scripts
+
+```bash
+python analysis/script_dialogue_analysis.py
+```
+
+Extracts and swaps gender pronouns in dialogues for analysis.
+
+## Results & Visualization
+
+- **Pie chart** of emotional representation in trailers.
+- **Bar chart** showing the count of male vs. female appearances in movie posters.
+- **Processed scripts** with gender-swapped dialogues for analysis.
+
+## Future Improvements
+
+- **Expand Dataset:** Include more trailers, posters, and scripts.
+- **Improve Model Accuracy:** Fine-tune CNN for better classification.
+- **Add NLP Techniques:** Perform sentiment analysis on dialogues.
+
+## Contributing
+
+Feel free to fork the repo and submit pull requests for improvements.
+
+## License
+
+This project is open-source under the MIT License.
+
+
 ![image](https://github.com/user-attachments/assets/e0094668-a170-4887-860d-856d46a9faa4)
 ![image](https://github.com/yukeshwardevs/Fall_Intern_interview_project_ML_Q-3/assets/146966338/ee5f84fb-de51-43e6-a288-9934d7f86fb2)
 ![image](https://github.com/yukeshwardevs/Fall_Intern_interview_project_ML_Q-3/assets/146966338/d0dfb7fb-0cbc-4b29-8178-9626b393ee59)
