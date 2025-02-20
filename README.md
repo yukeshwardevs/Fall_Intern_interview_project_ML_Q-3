@@ -84,13 +84,6 @@ Extracts and swaps gender pronouns in dialogues for analysis.
 - **Improve Model Accuracy:** Fine-tune CNN for better classification.
 - **Add NLP Techniques:** Perform sentiment analysis on dialogues.
 
-## Contributing
-
-Feel free to fork the repo and submit pull requests for improvements.
-
-## License
-
-This project is open-source under the MIT License.
 
 
 ![image](https://github.com/user-attachments/assets/e0094668-a170-4887-860d-856d46a9faa4)
